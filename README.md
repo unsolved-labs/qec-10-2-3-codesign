@@ -29,7 +29,7 @@ Python 3.11+; standard library only.
 python verify_release.py
 ```
 
-The verifier rederives the code parameters and stabilizer weight spectrum, re-enumerates the complete lower-bound architecture/schedule space, independently checks every collision certificate, and exhaustively checks the 10-check witness.
+The verifier rederives the code parameters and stabilizer weight spectrum, re-enumerates the complete lower-bound architecture/schedule space, independently finds a single-fault logical ambiguity in every 8/9-check schedule, and exhaustively checks the 10-check witness.
 
 Machine-readable expected output is in [`verification-report.json`](verification-report.json).
 
@@ -38,7 +38,6 @@ Machine-readable expected output is in [`verification-report.json`](verification
 - [`proof.md`](proof.md) — frozen theorem, proof, architecture, fault model, and limitations
 - [`verify_release.py`](verify_release.py) — self-contained exact verifier
 - [`verification-report.json`](verification-report.json) — machine-readable replay result
-- [`certificates/lower_bound_collisions.json`](certificates/lower_bound_collisions.json) — 900 explicit lower-bound fault-collision certificates
 - [`witness-schedule.json`](witness-schedule.json) — machine-readable 10-check schedule
 - [`NOVELTY.md`](NOVELTY.md) — scoped prior-art and novelty audit
 
