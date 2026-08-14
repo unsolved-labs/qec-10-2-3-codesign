@@ -1,6 +1,10 @@
 # Exact four-layer syndrome-extraction minimum for the [[10,2,3]] code
 
+**Unsolved Labs Research Release R017**
+
 An exact, architecture-specific optimization result for direct CSS syndrome extraction on the known `[[10,2,3]]` rotated-toric code.
+
+Public release page: https://unsolved-labs.github.io/results/r017-qec-10-2-3-four-layer/
 
 ## Result
 
